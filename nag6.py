@@ -1,5 +1,5 @@
-year=int(raw_input())
-if(year%4==0 and year%100!0 or year%400==0):
+n=int(raw_input())
+if(n%4==0 and n%100!0 or n%400==0):
 print("yes")
 else:
 print("no")
