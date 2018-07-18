@@ -1,6 +1,6 @@
-num=int(raw_input("Enter a number"))
+numb=int(raw_input("Enter number"))
 n=1
-while num>0:
-	n=n*num
-	num=num-1
-print "Factorial of the given number is ",n
+while numb>0:
+	n=n*numb
+	numb=numb-1
+print "Factorial number is ",n
